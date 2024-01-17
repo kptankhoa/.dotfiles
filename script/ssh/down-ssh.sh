@@ -8,7 +8,7 @@ fi
 
 rm $HOME/.ssh/*
 
-for FILE in $DF_HOME/.ssh/*;
+for FILE in $DF_HOME/.ssh/id_*;
 do
     if [ ! -f "$FILE" ]; then
         touch $HOME/.ssh/$(basename $FILE)
