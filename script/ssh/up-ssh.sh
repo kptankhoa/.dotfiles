@@ -3,7 +3,7 @@
 DF_HOME=$HOME/.dotfiles
 
 if [ ! -d $DF_HOME/.ssh ]; then
-  exit 1
+  mkdir $DF_HOME/.ssh
 fi
 
 mv $HOME/.ssh $DF_HOME/.ssh

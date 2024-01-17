@@ -1,0 +1,12 @@
+alias idea='intellij-idea-ultimate'
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias rmf='rm -rf'
+
+alias dk='docker'
+alias dkc='docker compose'
+alias dkcu='docker compose up'
+alias dkcd='docker compose down'
