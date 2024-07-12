@@ -45,3 +45,7 @@ export PATH="$M2_HOME/bin:$PATH"
 
 # nuxeo shorthand
 source $HOME/sourceme.sh
+
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey '^H' backward-kill-word
