@@ -14,6 +14,3 @@ alias dkri='docker rmi'
 alias dkc='docker compose'
 alias dkcu='docker compose up'
 alias dkcd='docker compose down'
-
-alias mvstudio='mv ~/Downloads/pvh-global-dam-khoa.phan@codelink.io.zip ~/dev/nuxeo-docker/data/pvh/deployments/studio.zip'
-alias cpmarket='cp ~/dev/pvh-global-dam/pvh-global-marketplace/target/pvh-global-marketplace-3.99.0-SNAPSHOT.zip ~/dev/nuxeo-docker/data/pvh/deployments/market.zip'
