@@ -10,3 +10,7 @@ p10k theme
 catppuccin theme
 stow
 zoxide
+fzf
+tmux
+neovim
+lazygit

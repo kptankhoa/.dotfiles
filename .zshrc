@@ -21,7 +21,6 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
 ZSH_THEME="robbyrussell"
 
 plugins=(
@@ -52,3 +51,11 @@ bindkey '^H' backward-kill-word
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:/home/kptankhoa/.local/bin
+
+export OPENAI_KEY=""
