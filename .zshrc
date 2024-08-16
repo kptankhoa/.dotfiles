@@ -10,9 +10,11 @@ zstyle :compinstall filename '/home/kptankhoa/.zshrc'
 autoload -Uz compinit
 compinit
 
-HISTFILE=~/.histfile
-HISTSIZE=4000
-SAVEHIST=1000
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
 bindkey -e
 
 # End of lines configured by zsh-newuser-install
