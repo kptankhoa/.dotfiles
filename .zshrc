@@ -57,4 +57,4 @@ bindkey "^[[1;5D" backward-word
 bindkey '^H' backward-kill-word
 
 # zoxide
-eval "$(zoxide init --cmd cd zsh)"
+eval "$(zoxide init zsh)"
