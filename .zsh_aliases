@@ -17,3 +17,4 @@ alias dkcd='docker compose down'
 
 alias zed='zeditor'
 alias vim='nvim'
+alias search='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
