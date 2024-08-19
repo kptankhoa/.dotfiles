@@ -56,5 +56,11 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 bindkey '^H' backward-kill-word
 
+export PATH="$PATH:/opt/nvim-linux64/bin"
+
+M2_HOME='/opt/apache-maven-3.9.8'
+PATH="$M2_HOME/bin:$PATH"
+export PATH
+
 # zoxide
 eval "$(zoxide init zsh)"
