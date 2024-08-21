@@ -8,6 +8,6 @@ config.font_size = 9
 
 config.window_decorations = "RESIZE"
 
-config.color_scheme = "GruvboxDarkHard"
+config.color_scheme = "GruvboxDark"
 
 return config
