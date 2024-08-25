@@ -1,5 +1,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 
+if [ -f ~/.zsh_hi ]; then
+    . ~/.zsh_hi
+fi
+
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
