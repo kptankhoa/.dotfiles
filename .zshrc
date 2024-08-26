@@ -1,8 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-if [ -f ~/.zsh_hi ]; then
-    . ~/.zsh_hi
-fi
+echo -e "\e[1;32m $(figlet -c kptankhoa)"
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
