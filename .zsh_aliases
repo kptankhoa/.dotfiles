@@ -21,3 +21,7 @@ alias search='fzf --preview "bat --color=always --style=numbers --line-range=:50
 
 alias mvstudio='mv ~/Downloads/pvh-global-dam-khoa.phan@codelink.io.zip ~/dev/nuxeo-docker/data/pvh/deployments/studio.zip'
 alias cpmarket='cp ~/dev/pvh-global-dam/pvh-global-marketplace/target/pvh-global-marketplace-3.99.0-SNAPSHOT.zip ~/dev/nuxeo-docker/data/pvh/deployments/market.zip'
+alias cpfix='cp ~/dev/pvh-dam-fix/pvh-dam-fix-marketplace/target/pvh-dam-fix-marketplace-3.99.0-SNAPSHOT.zip ~/dev/nuxeo-docker/data/pvh/deployments/fix.zip'
+alias air='~/go/bin/air'
+
+alias sql1='docker exec -it sql1 /opt/mssql-tools18/bin/sqlcmd -S localhost -U kptankhoa -P "T@nkh0@99" -C'

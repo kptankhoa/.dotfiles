@@ -66,3 +66,5 @@ export PATH
 
 # zoxide
 eval "$(zoxide init zsh)"
+
+export PATH=$PATH:/usr/local/go/bin
