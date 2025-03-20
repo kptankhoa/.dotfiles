@@ -2,10 +2,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 neofetch
 
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR=vim
 
@@ -22,12 +18,6 @@ setopt appendhistory
 
 bindkey -e
 
-# End of lines configured by zsh-newuser-install
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 ZSH_THEME="robbyrussell"
 
 plugins=(
@@ -36,13 +26,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# bun completions
-[ -s "/home/kptankhoa/.bun/_bun" ] && source "/home/kptankhoa/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
 
 if [ -f ~/.zsh_aliases ]; then
     . ~/.zsh_aliases
@@ -62,3 +45,4 @@ export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:/home/kptankhoa/.local/bin
 
 export OPENAI_KEY=""
+eval "$(/opt/homebrew/bin/brew shellenv)"
